@@ -1,5 +1,5 @@
 # python-projects
-Collecting call python code snippets I developped during education</br>
+Collecting all python code snippets I developped during education</br>
 </br>
 <b>Freeform Projects:</b> </br>
 Freeform Projects are part of the learning plattform "Codecademy". 
