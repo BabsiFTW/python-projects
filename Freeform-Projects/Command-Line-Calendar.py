@@ -20,18 +20,24 @@ def start_calendar():
     while start:
       user_choice = raw_input("Add A to Add, U to Update, V to View, D to Delete, X to Exit: ")
       user_choice = user_choice.upper()
+      
+      #Option of viewing the calendar
       if user_choice == "V":
         if len(calendar.keys()) == 0:
           print "Calendar is empty!"
         #else:
         else:
          print calendar
+        
+      #Option of updating the calendar
       elif user_choice == "U":
         date = raw_input("What date? ")
         update = raw_input("Enter the update: ")
         calendar[date] = update
         print calendar
         print "Update was successfull!"
+      
+      #Option of adding events to the calendar
       elif user_choice  == "A":
         event = raw_input("Enter event: ")
         date = raw_input("Enter date (MM/DD/YYYY): ")
@@ -47,6 +53,8 @@ def start_calendar():
           calendar[date] = event
           print "Event was sucessfully added!"
           print calendar  
+      
+      #Option of deleting events in the calendar
       elif user_choice == "D":
         if len(calendar.keys()) < 1:
           print "Error! YOur calendar is empty!"
@@ -60,6 +68,8 @@ def start_calendar():
               print calendar
             else:
               print "An incorrect event was specified!"
+      
+      #Enables user to exit the program
       elif user_choice == "X":
         start = False
       else:
