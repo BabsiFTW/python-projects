@@ -12,6 +12,7 @@ how to implement the solutions.</br>
 <li>Data Visualization with Matplotlib</li>
 <li>Data Manipulation with Pandas</li>
 <li>Statistics with NumPy</li>
-<li>A/B Testing</li>
+<li>A/B Testing with SciPy</li>
 <li>Data Retrieval with SQL</li>
 </ul>
+</br>
